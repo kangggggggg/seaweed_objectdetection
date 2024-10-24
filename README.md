@@ -43,6 +43,7 @@
 - PyTorch CUDA 버전: 12.1
 4. **YOLO 모델 실행 예시**:
   ```bash
+  python src/preprocessing.py  # 모델 훈련을 위한 전처리(YOLO 형식 변환)
   python src/train.py  # 모델 학습
   python src/evaluate.py  # 모델 평가
   python src/predict.py  # 테스트 데이터 예측
